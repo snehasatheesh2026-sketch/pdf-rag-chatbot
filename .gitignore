@@ -1,0 +1,13 @@
+
+venv/
+__pycache__/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+
+# Uploaded PDFs and local vector database
+data/uploads/
+data/chroma_db/
+
+# Temporary files
+*.tmp
